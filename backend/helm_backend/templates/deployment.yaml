@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: am-payments-backend
+  labels:
+    app: {{ .Values.labels }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.labels }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.labels }}
+    spec:
+      imagePullSecrets:
+      - name: myregistrykey
+      containers:
+      - name: {{ .Values.name }}
+        image: {{ .Values.image }}
+        #imagePullPolicy: Always
+        ports:
+        - containerPort: {{ .Values.containerPort }}
+        resources:
+          limits:
+            cpu: {{ .Values.cpu }}
+          requests:
+            cpu: {{ .Values.cpu }}
+

@@ -1,0 +1,272 @@
+.myShiftLayout {
+  .main-content {
+    display: flex;
+    margin-top: 3rem;
+   
+    .routing {
+        width: 100%;
+      .layoutRouting {
+        text-align: justify;
+        padding: 12px;
+        min-height: 92.80vh;
+      }
+    }
+  }
+}
+.darkLayout{
+  background-color: #181a1b;
+  color: #ddd;
+  .css-13cymwt-control{
+    background-color: #181a1b;
+    color: #ddd;
+  }
+  input#search {
+    border-color:#495458 !important;
+  }
+  .filterSearch .TextField{
+    background-color: #181a1b;
+    color: #ddd;
+  }
+  .downLoad  {
+    background-color: #181a1b;
+  }
+  .filterSelect svg {
+    fill: white
+  }
+  .column-menu ul{
+    background-color: #181a1b !important;
+  }
+  .Footer{
+    border-top: 1px solid var(--light-gray);
+    background-color: #181a1b;
+    color: var(--light-grey);
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid var(--light-gray);
+}
+ 
+.custom-filters .clicked {
+  background-color: #303436 !important;
+}
+.custom-filters{
+  border: 1px solid #495458;
+}
+.custom-filters .filter-buttons {
+  border-right: 1px solid #495458;
+}
+.rs-picker-default .rs-btn, .rs-picker-input .rs-btn, .rs-picker-default .rs-picker-toggle, .rs-picker-input .rs-picker-toggle {
+  background-color: #181a1b !important;
+}
+.css-13cymwt-control {
+  border: 1px solid #495458;
+}
+.css-13cymwt-control:hover {
+  border: 1px solid #495458;
+}
+.css-1dimb5e-singleValue { 
+  color:  #c8c3bc !important;
+}
+.css-t3ipsp-control {
+  background-color: #181a1b !important;
+  border: 1px solid #495458 !important;
+  box-shadow: 0 0 0 1px #484949;
+}
+.css-1nmdiq5-menu {
+  background-color: #181a1b;
+  box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6);
+  -moz-box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6);
+  -webkit-box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6);
+}
+.css-tr4s17-option {
+  background-color: #212425 !important; 
+  color: #a49e95 !important;
+}
+.css-d7l1ni-option {
+  background-color: #212425 !important; 
+  color: #a49e95 !important;
+}
+.css-1u9des2-indicatorSeparator {
+  background-color: #495458;
+}
+.dropdown.iconhover:hover .header-item, .navbar-header .dropdown .header-item.show, .icon-link:hover {
+  // background: #181a1b !important;
+  background: #000 !important;
+}
+
+#page-topbar .navbar-header .dropdown-menu {
+ background: #181a1b;
+ box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6) !important;
+ -moz-box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6) !important;
+ -webkit-box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6) !important;
+}
+.moreMenu .moreMenu-items {
+  color: #97918a;
+} 
+.moreMenu {
+  border-bottom: 1px solid #585c5e;
+}
+.dropdown-item {
+  color:#97918a;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  color:#97918a;
+  background-color: #2c2e30;
+}
+#page-topbar .navbar-header .dropdown-menu:after {
+  border-bottom-color: #181a1b;
+  // box-shadow: 0px 0px 4px rgba(114, 113, 111, 0.8) !important;
+  // -moz-box-shadow: 0px 0px 4px rgba(114, 113, 111, 0.8) !important;
+  // -webkit-box-shadow: 0px 0px 4px rgba(114, 113, 111, 0.8) !important;
+}
+
+.custom-modal .modal-content {
+  background-color: #181a1b !important; 
+}
+.modal-title, .custom-modal-header.modal-header .modal-title{
+  color:#97918a;
+}
+
+.modal.right.fade.show .modal-dialog .modal-content {
+  background: #181a1b;
+  box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6);
+  -moz-box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6);
+  -webkit-box-shadow: 0px 0px 4px rgba(83, 82, 80, 0.6);
+}
+.modal-header {
+  border-bottom: 1px solid #383d3f;
+}
+.custom-modal-header.modal-header {
+  background: red !important;
+}
+.custom-modal.red.modal .ticket_Label {
+  color: red !important; 
+}
+.notifications-mbl h5, .notifications-mbl h6{
+  color:#97918a;
+}
+.notification-item .d-flex:hover {
+  background-color: #2c2e30;
+}
+.btn-close {
+ position: relative;
+ background: transparent !important;
+}
+
+.btn-close::after {
+  font: normal normal normal 24px/1 "Material Design Icons";
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  content: "\F0156";
+  color: #c5c1c1;
+  position: absolute;
+  right: 4px;
+  top: -1px;
+  font-size: 21px;
+}
+.form-select {
+  color: #a6a6a7;
+  background-color: transparent;
+}
+.boxContainer .elementsContainer .search {
+  color: #a6a6a7;
+  background: transparent;
+}
+.cross_icon {
+  color: #8c8d8c;
+}
+.boxContainer {
+  border-left: 2px solid #5a5d5e;
+}
+.search_container {
+  border: 2px solid #5a5d5e !important;
+}
+.show-list:hover {
+  background: #303436;
+}
+.show-list.border-top {
+  border-top: 1px solid #5a5d5e !important;
+}
+.icon-link:hover i {
+  color: #8d8b8f !important;
+}
+#settings:hover {
+  color: #8d8b8f !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: rgb(203 199 199 / 60%);
+}
+.kZNiTY {
+  color: #fff;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+  content: "\f002";
+  color: #8d8b8f;
+}
+.css-1gsv261 {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.search_dropDown select {
+  background-image: none;
+  appearance: auto;
+  background: #181a1b;
+}
+.notifications-mbl .m-0.font-size-17 {
+  color: #b1aaa0;
+}
+.notifications-mbl .setiicon:hover {
+  color: #f66b4e;
+}
+.notifications-mbl .username {
+  color: #c6c3bd;
+}
+.notification_header {
+  background: #181a1b;
+}
+.notification-list {
+  background: #252728;
+}
+.notification-list_content .username .text-dark {
+  color: #c6c3bd !important;
+}
+.notification-list_content .dateandtime {
+  border: 1px solid #555 !important;
+}
+.notifications-mbl .assigtick {
+  color: #c6c3bd;
+  border-bottom: 1px solid #383d3f !important;
+}
+.notifications-mbl .p-3.border-bottom {
+  border-bottom: 1px solid #383d3f !important;
+}
+.notification_header .linkhover:hover {
+  background: #252728;
+}
+
+.notification-ui_dd-content .notification-list .linkhover:hover {
+  background: #252728;
+}
+
+select.mATus {
+  background: #181a1b;
+}
+select.mATus option {
+  color: #dddddd !important;
+}
+
+}
+.display-block{display: block;}
+.display-none{display: none;}
+
+@media (max-width: 600px) {
+  .task-select {
+    margin-left: 0px !important;
+}
+}
+.darkLayout{
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: rgb(203 199 199 / 60%);
+}
+  }
+  // body{
+  //   overflow: auto;
+  // }

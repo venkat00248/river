@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx-five
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/affinity: "cookie"
+    nginx.ingress.kubernetes.io/affinity-mode: persistent
+#    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  name: ingress-resource-am-payments-backend
+spec:
+  tls:
+  - hosts:
+    - paymentsapi-uat.cloud4c.com
+    secretName: my-tls-key
+  rules:
+  - host: paymentsapi-uat.cloud4c.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: am-payments-backend-service
+            port:
+              number: 80

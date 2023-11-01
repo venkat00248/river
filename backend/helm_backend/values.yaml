@@ -1,0 +1,16 @@
+replicaCount: 2
+image: 10.10.121.29:8085/am-payments-backend-uat:01
+
+#imagePullSecrets: myregistrykey
+name: am-payments-backend
+labels: am-payments-backend
+
+
+service:
+  type: ClusterIP
+  port: 80
+
+targetPort: 8080
+#nodePort: 30008
+containerPort: 8080
+cpu: 100m
